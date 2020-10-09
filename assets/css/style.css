@@ -3,11 +3,51 @@
   src: url('../font/cursiveFont.otf') format('truetype');
 }
 
+@keyframes rainbow {
+  100%, 0% {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+  8% {
+    background-color: rgba(255, 127, 0, 0.5);
+  }
+  16% {
+    background-color: rgba(255, 255, 0, 0.5);
+  }
+  25% {
+    background-color: rgba(127, 255, 0, 0.5);
+  }
+  33% {
+    background-color: rgb(0, 255, 0, 0.5);
+  }
+  41% {
+    background-color: rgba(0, 255, 127, 0.5);
+  }
+  50% {
+    background-color: rgba(0, 255, 255, 0.5);
+  }
+  58% {
+    background-color: rgba(0, 127, 255, 0.5);
+  }
+  66% {
+    background-color: rgb(0, 0, 255, 0.5);
+  }
+  75% {
+    background-color: rgba(127, 0, 255, 0.5);
+  }
+  83% {
+    background-color: rgba(255, 0, 255, 0.5);
+  }
+  91% {
+    background-color: rgba(255, 0, 127, 0.5);
+  }
+}
+
 body {
   width: 100%;
   margin: 0;
   padding: 0;
   font: 1.2em "Calibri", sans-serif;
+  background-color: rgb(204 230 226);
 }
 
 body>div {
@@ -23,10 +63,11 @@ button {
 }
 
 header {
-  background-color: rgb(0 133 51);
+  background-color: rgb(0 133 112);
   box-shadow: 0px 1px 7px 6px #515151;
-  font-size: 2em;
+  font-size: 2.5em;
   height: 70px;
+  padding: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,25 +81,66 @@ header {
 }
 
 button:hover {
-  filter: brightness(1.2);
+  filter: brightness(1.4);
 }
 
-#menuLvlOne{
+#menuDiv, #gameDiv {
+  height: calc(calc(100vh - 80px) - 3em);
+}
+
+#menuLvlOne {
+  display: flex;
   justify-content: space-evenly;
+  flex: 1 0 15%;
+  align-items: center;
 }
 
 .menuButton {
   font-size: 1.5em;
   color: #fff;
-  border-radius: 13%;
-  background-color: rgb(68 0 186);
+  border-radius: 10px;
+  background-color: rgb(24 64 130);
+}
+
+#menuLvlTwo {
+  flex: 1 0 75%;
+}
+
+.groupMenu {
+  display: none;
+}
+
+.groupVisible {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: calc(calc(calc(100vh - 80px) - 3em) - 15%);
+  font-size: 2rem;
+}
+
+.groupMenu div {
+  display: flex;
+  align-items: center;
+}
+
+.groupMenu div span {
+  margin-right: 15px;
+}
+
+.playButton {
+  font-size: 1.8rem;
+  background-color: rgb(255 0 0);
+  color: rgb(0 0 0);
+  border-radius: 6px;
+  animation: rainbow 2.5s linear;
+  animation-iteration-count: infinite;
 }
 
 #gameDiv {
-  /* display: flex; */
   align-items: center;
   justify-content: center;
-  height: calc(calc(100vh - 80px) - 2em);
+  height: calc(calc(100vh - 80px) - 3em);
 }
 
 #wordToRead {
@@ -74,8 +156,15 @@ button:hover {
 
 body>div.visible {
   display: flex;
+  flex-direction: column;
 }
 
 #backButton.visible {
   display: block;
+  width: 40px;
+  cursor: pointer;
+}
+
+#backButton:hover {
+  filter: invert(1);
 }

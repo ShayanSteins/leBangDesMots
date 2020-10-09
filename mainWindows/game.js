@@ -23,6 +23,7 @@ function startGame(arr) {
  * Active la lecture vocale du mot puis appelle changeWord()
  */
 function readWord() {
+  wordToRead.removeEventListener('click', readWord)
   let utterance = new SpeechSynthesisUtterance(wordToRead.getAttribute('name'));
   utterance.pitch = 0.6
   utterance.rate = 0.7
@@ -49,9 +50,11 @@ function changeWord() {
   wordToRead.style.font = randomFont()
 
   if (wordList[nextIdx] === '!witch!')
-    wordToRead.innerHTML = '<img alt="Sorcière !" src="../assets/img/witch.jpg">'
+    wordToRead.innerHTML = '<img alt="Sorcière !" src="./assets/img/witch.jpg">'
   else
     wordToRead.innerHTML = wordList[nextIdx]
+
+  wordToRead.addEventListener('click', readWord)
 }
 
 /**
