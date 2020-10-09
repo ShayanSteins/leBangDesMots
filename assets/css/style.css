@@ -1,0 +1,81 @@
+@font-face {
+  font-family: CursiveFont;
+  src: url('../font/cursiveFont.otf') format('truetype');
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font: 1.2em "Calibri", sans-serif;
+}
+
+body>div {
+  display: none;
+  padding: 1em 0.8em;
+}
+
+button {
+  border: none;
+  background-color: rgb(151, 151, 151);
+  cursor: pointer;
+  padding: 0.5em 0.7em;
+}
+
+header {
+  background-color: rgb(0 133 51);
+  box-shadow: 0px 1px 7px 6px #515151;
+  font-size: 2em;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#backButton {
+  position: absolute;
+  left: 15px;
+  display: none;
+}
+
+button:hover {
+  filter: brightness(1.2);
+}
+
+#menuLvlOne{
+  justify-content: space-evenly;
+}
+
+.menuButton {
+  font-size: 1.5em;
+  color: #fff;
+  border-radius: 13%;
+  background-color: rgb(68 0 186);
+}
+
+#gameDiv {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  height: calc(calc(100vh - 80px) - 2em);
+}
+
+#wordToRead {
+  font-size: 3em;
+  padding: 1em;
+  text-align: justify;
+  font-family: CursiveFont, sans-serif;
+}
+
+#wordToRead:hover {
+  cursor: pointer;
+}
+
+body>div.visible {
+  display: flex;
+}
+
+#backButton.visible {
+  display: block;
+}

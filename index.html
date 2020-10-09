@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Le Bang des mots</title>
+  <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'self'"> -->
+  <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <span id="title">Le Bang des mots</span>
+    <button id="backButton" onclick="changeWindow(false)">Retour</button>
+    <button onclick="javascript:window.close()">Quitter</button>
+  </header>
+  <div id="menuDiv" class="visible">
+    <div id="menuLvlOne"></div>
+    <div id="menuLvlTwo"></div>
+    <button id="playbutton" onclick="startGame()">Jouer</button>
+  </div>
+  <div id="gameDiv">
+    <span id="wordToRead"></span>
+  </div>
+  <script type="text/javascript" src="./mainWindows/home.js"></script>
+  <script type="text/javascript" src="./mainWindows/game.js"></script>
+</body>
+
+</html>

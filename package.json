@@ -1,0 +1,25 @@
+{
+  "name": "lebangdesmots",
+  "version": "1.0.0",
+  "description": "Jeu éducatif pour l'apprentissage de la lecture",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShayanTavaril/leBangDesMots.git"
+  },
+  "author": "ShayanTavaril",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShayanTavaril/leBangDesMots/issues"
+  },
+  "homepage": "https://github.com/ShayanTavaril/leBangDesMots#readme",
+  "devDependencies": {
+    "electron": "^10.1.3"
+  },
+  "dependencies": {
+    "html-tagged-template": "^2.2.0"
+  }
+}

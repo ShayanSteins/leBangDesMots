@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Les mots - niveau 1",
+    "group": "CP",
+    "mots": ["il", "il y a", "un", "un rat", "un ara", "un art", "un riz", "Hugo", "Lili", "Taoki", "elle", "est", "la", "un lit", "un lilas", "un rallye", "c'est", "dans", "une", "Léo", "olé !", "l'orée", "l'allée", "un allié"]
+  },
+  {
+    "name": "Les mots - niveau 2",
+    "group": "CP",
+    "mots": ["et", "sur", "un as", "un iris", "un lasso", "le sol", "un lys", "un sort", "un sirop", "une série", "des", "la", "mais", "le salut", "lui", "un élu", "la rue", "un fil", "réussir", "sûr", "fort", "il est rassuré", "avec", "en", "une fée", "la folie", "le sofa", "un fossé"]
+  },
+  {
+    "name": "Les phrases - niveau 1",
+    "group": "CM2",
+    "mots": ["Hugo rit.", "Il y a un rat.", "Il rit.", "Un rat a ri.", "Il ira", "Un lit est là.", "Elle a un ara.", "Elle a un lilas.", "C'est Léa !", "Léo est l'allié de Larry.", "Léo est dans le lit.", "C'est Lalie dans l'allée.", "Léa est dans une allée.", "Alors Lalie a râlé."]
+  },
+  {
+    "name": "Les phrases - niveau 2",
+    "group": "CM2",
+    "mots": ["Taoki a un lasso.", "Lili a un lasso et un iris.", "C'est une série.", "Le sirop est sur le sol.", "Eli est dans la rue.", "Il a salué Lili.", "Ali est sûr de lui mais il a des suées.", "Une fée est sur le sofa.", "Le fils est en folie.", "Le rat a filé avec le fil."]
+  }
+]
