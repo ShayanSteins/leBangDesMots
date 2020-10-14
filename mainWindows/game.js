@@ -1,4 +1,4 @@
-// const wordToRead = document.getElementById('wordToRead')
+const audioElement = new Audio('./assets/sound/laugh.wav');
 let wordList = []
 
 wordToRead.addEventListener('click', readWord)
@@ -49,10 +49,13 @@ function changeWord() {
   wordToRead.setAttribute('name', wordList[nextIdx])
   wordToRead.style.font = randomFont()
 
-  if (wordList[nextIdx] === '!witch!')
-    wordToRead.innerHTML = '<img alt="Sorcière !" src="./assets/img/witch.jpg">'
-  else
+  if (wordList[nextIdx] === '!witch!') {
+    wordToRead.innerHTML = '<img alt="Sorcière !" src="./assets/img/witch.png">'
+    audioElement.play()
+  }
+  else {
     wordToRead.innerHTML = wordList[nextIdx]
+  }
 
   wordToRead.addEventListener('click', readWord)
 }

@@ -7,18 +7,13 @@ function createWindows() {
     width: 1080,
     minWidth: 680,
     height: 840,
+    icon: path.join(app.getAppPath(), 'assets/img/icon.ico'),
     webPreferences: {
       preload: path.join(app.getAppPath(), 'preload.js')
     }
   })
-  //degug
-  win.webContents.openDevTools()
-
   win.removeMenu()
   win.loadFile('./index.html')
-  win.webContents.on('did-finish-load', () => {
-    win.webContents.send('ping', 'whoooooooh!')
-  })
 }
 
 app.whenReady().then(createWindows)
