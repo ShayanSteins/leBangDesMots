@@ -1,0 +1,19 @@
+{
+  "name": "lebangdesmots",
+  "version": "1.0.0",
+  "description": "Jeu éducatif pour l'apprentissage de la lecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShayanTavaril/leBangDesMots.git"
+  },
+  "author": "ShayanTavaril",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShayanTavaril/leBangDesMots/issues"
+  },
+  "homepage": "https://github.com/ShayanTavaril/leBangDesMots#readme"
+}
