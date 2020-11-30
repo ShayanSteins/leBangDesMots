@@ -55,7 +55,7 @@ window.jsonDatas = [
     mots: ["le chat", "la cheminée", "une tortue", "un renard", "un canard", "le lit", "la nuit", "un tapis", "du chocolat", "le lézard"]
   },
   {
-    name: "Mets cesgroupesde mots au pluriel.",
+    name: "Mets ces groupes de mots au pluriel.",
     group: "CE1",
     mots: ["le zoo", "la classe", "un fer", "une gomme", "une affiche", "un verre", "la ville", "le vent", "une pomme", "il raffole", "elle rêve", "il affirme", "elle s'affole", "il poste", "il sonne" , "elle passe", "il ramasse", "il affiche", "elle donne", "il file"]
   }  

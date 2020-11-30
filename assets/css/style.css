@@ -158,10 +158,15 @@ button:hover {
   padding: 1em;
   text-align: justify;
   font-family: CursiveFont, sans-serif;
+  z-index: 100;
 }
 
 #wordToRead:hover {
   cursor: pointer;
+}
+
+#wordToRead>img {
+  max-height: 100vh;
 }
 
 body>div.visible {
