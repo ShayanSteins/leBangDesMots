@@ -55,8 +55,8 @@ Pour la version **Electron**, celle-ci n'est pas finalisée pour le moment.
 Cette application est sous license MIT.
 Les polices d'écritures utilisées sont : 
 - Comic sans ms
-- [Police de caractères cursives A](#https://eduscol.education.fr/204/polices-de-caracteres-cursives-pour-l-enseignement-de-l-ecriture) : Mise à disposition par le ministère de l'éducation nationale.
+- [Police de caractères cursives A](https://eduscol.education.fr/204/polices-de-caracteres-cursives-pour-l-enseignement-de-l-ecriture) : Mise à disposition par le ministère de l'éducation nationale.
 
-Le son de sorcière utilisé est disponible [ici](#https://lasonotheque.org/). Il a été réalisé par Joseph SARDIN, sous licence Creative Commons. Il s'agit du son 0489.
+Le son de sorcière utilisé est disponible [ici](https://lasonotheque.org/). Il a été réalisé par Joseph SARDIN, sous licence Creative Commons. Il s'agit du son 0489.
 
-L'image de la sorcière provient de [Pixabay](#https://pixabay.com/fr/vectors/des-animaux-dessin-anim%C3%A9-cat-2027045/).
+L'image de la sorcière provient de [Pixabay](https://pixabay.com/fr/vectors/des-animaux-dessin-anim%C3%A9-cat-2027045/).
