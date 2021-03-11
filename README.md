@@ -1,5 +1,7 @@
 # Le Bang des Mots
 
+English version [here](REAMDME_en.md). 
+
 Jeu éducatif d'aide à l'apprentissage de la lecture.
 
 ## Table des matières 
