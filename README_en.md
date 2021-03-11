@@ -1,6 +1,6 @@
 # Le Bang des Mots
 
-Version française [ici](REAMDME.md).
+Version française [ici](README.md).
 
 Serious game to help the learning of reading.
 
